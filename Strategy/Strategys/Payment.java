@@ -1,5 +1,5 @@
 package Strategys;
 
-public interface Payment {
-  public void pay(double amount);
+public abstract class Payment {
+  public abstract void pay(double amount);
 }
